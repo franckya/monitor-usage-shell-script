@@ -1,5 +1,4 @@
 # monitor-usage-shell-script
-shell script that you can use to monitor CPU and disk usage on a Linux system, and schedule the output to be displayed every 2 hours using a cronjob
 
 This script includes a function called monitor_usage that retrieves the current date and time, as well as the CPU and disk usage on the system. It then saves this information to a file called usage.log. The script also includes a line that schedules the monitor_usage function to run every 2 hours using cron.
 
